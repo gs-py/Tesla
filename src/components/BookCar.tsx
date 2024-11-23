@@ -1,13 +1,13 @@
 interface BookcarProp {
-  backgroungImage: string;
+  backgroundImage: string;
   content: {
-    model: string;
+    title: string;
     offer: string;
-    lease: string;
+    leaseDetails: string;
   };
 }
 
-const BookCar = ({ backgroundImage, content }) => {
+const BookCar = ({ backgroundImage, content }: BookcarProp) => {
   return (
     <div
       style={{

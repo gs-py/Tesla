@@ -10,7 +10,7 @@ const Header = () => {
         backgroundImage: `url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "500px",
+        height: "620px",
       }}
     >
       <div className=" flex h-32 items-center sm:justify-evenly justify-between px-4 sm:px-0   ">

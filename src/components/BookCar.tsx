@@ -14,7 +14,7 @@ const BookCar = ({ backgroundImage, content }: BookcarProp) => {
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "450px",
+        height: "620px",
       }}
     >
       <div className="flex flex-col justify-between gap-3  h-full py-4">
@@ -25,10 +25,10 @@ const BookCar = ({ backgroundImage, content }: BookcarProp) => {
         </div>
 
         <div className=" flex gap-3 justify-center">
-          <button className=" bg-blue-500  text-white px-3 rounded-sm w-35 text-2xl md:text-lg text-nowrap ">
+          <button className=" bg-blue-500  text-white px-3 rounded-sm w-[40%] text-2xl md:text-lg text-nowrap py-1 sm:w-32 ">
             Order Now
           </button>
-          <button className=" bg-white px-3 rounded-sm w-35 text-nowrap text-2xl md:text-lg">
+          <button className=" bg-white px-3 rounded-sm w-[40%] py-1 text-nowrap text-2xl md:text-lg sm:w-32">
             Learn More
           </button>
         </div>

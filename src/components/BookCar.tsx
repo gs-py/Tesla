@@ -25,10 +25,10 @@ const BookCar = ({ backgroundImage, content }: BookcarProp) => {
         </div>
 
         <div className=" flex gap-3 justify-center">
-          <button className=" bg-blue-500  text-white px-3 rounded-sm w-20">
-            order Now
+          <button className=" bg-blue-500  text-white px-3 rounded-sm w-35 text-2xl md:text-lg text-nowrap ">
+            Order Now
           </button>
-          <button className=" bg-white px-3 rounded-sm w-20 text-nowrap">
+          <button className=" bg-white px-3 rounded-sm w-35 text-nowrap text-2xl md:text-lg">
             Learn More
           </button>
         </div>

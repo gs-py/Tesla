@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div className="w-full justify-center bg-white">
+    <div className="w-full justify-center bg-white mb-10">
       <ol
         type="1"
-        className="list-decimal flex flex-col gap-3 items-center w-[50%] mx-auto text-[10px]  text-sm bg-white  text-center "
+        className="list-decimal flex flex-col gap-3 items-center pt-2  mx-auto text-xs  md:text-sm bg-white  text-center w-[80%]  md:w-[40%]"
       >
         <li>
           Monthly lease payment excludes taxes and fees, is based on $44,990
@@ -40,14 +40,14 @@ const Footer = () => {
         </li>
       </ol>
 
-      <div className=" w-[50%]  flex justify-center items-center mx-auto py-4 gap-3 text-nowrap text-xs font-medium">
+      <div className=" w-[50%] flex-col md:flex-row flex justify-center items-center mx-auto py-4 gap-2 md:gap-3 text-nowrap text-xs md:text-sm font-medium">
         <p>Tesla © 2024 </p>
         <p>Privacy & Legal</p>
         <p>Vehicle Recalls</p>
-        <p>Contact</p>
+        <p className="hidden md:block">Contact</p>
         <p>News</p>
-        <p>Get Updates</p>
-        <p>Locations</p>
+        <p className="hidden md:block">Get Updates</p>
+        <p className="hidden md:block">Locations</p>
       </div>
     </div>
   );
